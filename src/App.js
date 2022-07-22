@@ -1,10 +1,12 @@
 
 import './App.css';
+import Table from './Table';
 
 function App() {
 
 
   return (
+    <>
     <div className="App">
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
@@ -23,6 +25,8 @@ function App() {
   </div>
 </nav>
     </div>
+<Table/>
+    </>
   );
 }
 
